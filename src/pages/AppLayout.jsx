@@ -1,14 +1,17 @@
-import React from 'react'
-import AppNav from '../components/AppNav'
+//import Map from "../components/Map";
+//import Sidebar from "../components/Sidebar";
+//import User from "../components/User";
 
-const AppLayout = () => {
+import AppNav from "../components/AppNav";
+
+function AppLayout() {
   return (
     <div>
-        <AppNav/>
-        <h1>App</h1>
-      
+      <AppNav />
+      <p>App</p>
+    
     </div>
-  )
+  );
 }
 
-export default AppLayout
+export default AppLayout;
